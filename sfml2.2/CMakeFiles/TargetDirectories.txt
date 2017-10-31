@@ -1,0 +1,3 @@
+C:/Users/HP/Desktop/DZ OVM/sfml2.2/CMakeFiles/sfml2.2.dir
+C:/Users/HP/Desktop/DZ OVM/sfml2.2/CMakeFiles/edit_cache.dir
+C:/Users/HP/Desktop/DZ OVM/sfml2.2/CMakeFiles/rebuild_cache.dir

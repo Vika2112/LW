@@ -1,0 +1,3 @@
+C:/Users/HP/Desktop/arm4ch4nn3l-master/sfml1.1/CMakeFiles/sfml1.1.dir
+C:/Users/HP/Desktop/arm4ch4nn3l-master/sfml1.1/CMakeFiles/edit_cache.dir
+C:/Users/HP/Desktop/arm4ch4nn3l-master/sfml1.1/CMakeFiles/rebuild_cache.dir
