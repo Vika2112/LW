@@ -1,0 +1,3 @@
+C:/Users/HP/repo/sfml3.2/CMakeFiles/sfml3.2.dir
+C:/Users/HP/repo/sfml3.2/CMakeFiles/edit_cache.dir
+C:/Users/HP/repo/sfml3.2/CMakeFiles/rebuild_cache.dir
