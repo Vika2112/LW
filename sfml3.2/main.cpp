@@ -81,7 +81,7 @@ void onMouseMove(const sf::Event::MouseMoveEvent &event, sf::Vector2f &mousePosi
     mousePosition = {float(event.x), float(event.y)};
 }
 
-// Опрашивает и обрабатывает доступные события в цикле.
+// Опрашивает и обрабатывает доступные события в цикле
 void pollEvents(sf::RenderWindow &window, sf::Vector2f &mousePosition)
 {
     sf::Event event;
@@ -101,7 +101,7 @@ void pollEvents(sf::RenderWindow &window, sf::Vector2f &mousePosition)
     }
 }
 
-// Обновляет зрачки, указывающие на мышь
+// Обновляет зрачки
 void update(const sf::Vector2f &mousePosition, Eye &LeftEye, Eye &RightEye)
 {
     sf::Vector2f delta = mousePosition - LeftEye.position;
@@ -124,8 +124,8 @@ void redrawFrame(sf::RenderWindow &window, Eye &LeftEye, Eye &RightEye)
     window.display();
 }
 
-// Программа рисует в окне глаза, у которых зрачки поворачиваются
-// вслед за курсором мыши.
+//  Рисует в окне глаза, у которых зрачки поворачиваются за курсором мыши
+
 int main()
 {
     constexpr unsigned WINDOW_WIDTH = 800;
