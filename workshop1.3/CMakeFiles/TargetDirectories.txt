@@ -1,3 +1,0 @@
-C:/Users/HP/repo/workshop1.3/CMakeFiles/workshop1.3.dir
-C:/Users/HP/repo/workshop1.3/CMakeFiles/edit_cache.dir
-C:/Users/HP/repo/workshop1.3/CMakeFiles/rebuild_cache.dir
