@@ -64,13 +64,7 @@
 .photo {
     position: relative;
 }
-.1 {
-    padding: 0 0 0 20px;
-    font-size: 19px;
-    line-height: 36px;
-    color: rgb(85, 85, 85);
-    font-family: "Georgia";
-}
+
 .title_lists {
     margin-top: 0;
     margin-bottom: 0;
