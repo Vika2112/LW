@@ -1,14 +1,12 @@
 .main_content {
     position: relative;
-    /*элемент абсолютно позиционирован,отсчет координат ведется от края родительского элемента*/
-    display: flex;
-    /* инициализация контейнера*/
     width: 1000px;
-    margin: 0 auto;
-    /*выравнивание тела сайта по центру*/
+    height: auto;
+    margin: auto;
 }
 .blocks_and_foto {
     position: relative;
+    float: left;
     padding: 100px 60px 0 0;
 }
 .lists {
@@ -21,14 +19,15 @@
 }
 .list_two {
     position: relative;
-    margin-top: 42px;
-    margin-bottom: 42px;
-    padding: 0;
+    margin-top: 58px;
 }
 .all_text {
     position: relative;
-    flex-direction: column;
-    padding-top: 100px;
+    width: 570px;
+    height: auto;
+    float: right;
+    padding-top: 150px;
+    padding-right: 40px;
 }
 .basic_information {
     position: relative;
@@ -36,6 +35,8 @@
     width: 570;
 }
 .blockquote {
+    background-image: url(quotes.png);
+    background-repeat: no-repeat;
     position: relative;
     width: 570px;
     height: 221px;
@@ -44,12 +45,9 @@
 }
 .author {
     position: relative;
-    /* относительное позиционирование */
-    flex-direction: column;
-    /*направление главной оси сверху вниз*/
+    float: column;
     margin: 0;
     padding-left: 62px;
-    /*отступ слева 62px*/
     font-size: 16px;
     line-height: 42px;
     color: rgb(51, 51, 51);
@@ -63,8 +61,10 @@
 }
 .photo {
     position: relative;
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
 }
-
 .title_lists {
     margin-top: 0;
     margin-bottom: 0;
@@ -73,13 +73,12 @@
     color: rgb(21, 169, 140);
     font-family: "Open Sans";
     font-weight: bold;
+    font-weight: 600;
 }
 .title_text_one {
     position: relative;
     margin-top: 50px;
-    /*верхний отступ*/
     margin-bottom: 35px;
-    /*нижний отступ*/
     font-size: 48px;
     line-height: 42px;
     color: rgb(51, 51, 51);
@@ -90,7 +89,7 @@
     padding-top: 50px;
     width: 570px;
     margin-top: 0;
-    margin-bottom: 60px;
+    margin-bottom: 0;
     font-size: 19px;
     line-height: 32px;
     color: rgb(85, 85, 85);
@@ -99,8 +98,8 @@
 .text_max {
     width: 562px;
     height: 263px;
-    margin-top: 15px;
-    margin-bottom: 3px;
+    margin-top: 30px;
+    margin-bottom: 0;
     font-size: 19px;
     line-height: 32px;
     color: rgb(85, 85, 85);
@@ -115,12 +114,13 @@
     position: relative;
     width: 512px;
     margin: 0;
-    padding: 0.1px 0px 0px 57px;
+    padding: 0 0 0 57px;
     font-size: 28px;
     line-height: 42px;
     color: rgb(132, 132, 132);
     font-family: "Georgia";
     font-style: italic;
+    padding-top: 70px;
 }
 .underline {
     width: 60px;
@@ -131,31 +131,40 @@
 .title_text_two {
     position: relative;
     margin-top: 50px;
-    /*верхний отступ*/
-    margin-bottom: 35px;
-    /*нижний отступ*/
+    margin-bottom: 0;
     font-size: 36px;
     line-height: 42px;
     color: rgb(51, 51, 51);
     font-family: "Open Sans";
+    font-weight: 400;
 }
-.link {
-    width: 570px;
-    height: 153px;
+a {
     font-size: 19px;
     line-height: 32px;
     color: rgb(21, 169, 139);
     font-family: "Georgia";
+    text-decoration: none;
+}
+a:hover {
+    font-size: 19px;
+    line-height: 32px;
+    font-family: "Georgia";
+    color: rgb(9, 141, 114);
 }
 .text {
-    padding: 0px 0px 0px 20px;
+    padding: 0 0 0 20px;
     font-size: 19px;
     line-height: 36px;
     color: rgb(85, 85, 85);
     font-family: "Georgia";
 }
 .image {
+    width: 130px;
+    height: 88px;
     position: relative;
     margin: 0;
     padding-top: 50px;
+}
+.link {
+    text-decoration: underline;
 }
