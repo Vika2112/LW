@@ -1,27 +1,38 @@
-.main_content {
+.main_content 
+{
     position: relative;
     width: 1000px;
     height: auto;
     margin: auto;
 }
-.blocks_and_foto {
+
+.blocks_and_foto 
+{
     position: relative;
     float: left;
     padding: 100px 60px 0 0;
 }
-.lists {
+
+.lists
+{
     width: 330px;
     position: relative;
 }
-.list_one {
+
+.list_one
+{
     position: relative;
     margin-top: 50px;
 }
-.list_two {
+
+.list_two 
+{
     position: relative;
     margin-top: 58px;
 }
-.all_text {
+
+.all_text
+{
     position: relative;
     width: 570px;
     height: auto;
@@ -29,13 +40,17 @@
     padding-top: 150px;
     padding-right: 40px;
 }
-.basic_information {
+
+.basic_information
+{
     position: relative;
     box-sizing: border-box;
     width: 570;
     padding-bottom: 135px;
 }
-.blockquote {
+
+.blockquote 
+{
     background-image: url(quotes.png);
     background-repeat: no-repeat;
     position: relative;
@@ -43,7 +58,9 @@
     height: 221px;
     padding-bottom: 80px;
 }
-.author {
+
+.author 
+{
     position: relative;
     float: column;
     margin: 0;
@@ -54,23 +71,28 @@
     font-family: "Open Sans";
     font-weight: bold;
 }
-.photo {
+
+.photo
+{
     position: relative;
     width: 330px;
     height: 350px;
     border-radius: 5px;
 }
-.title_lists {
+
+.title_lists 
+{
     margin-top: 0;
     margin-bottom: 0;
     font-size: 24px;
     line-height: 32px;
     color: rgb(21, 169, 140);
     font-family: "Open Sans";
-    font-weight: bold;
     font-weight: 600;
 }
-.title_text_one {
+
+.title_text_one
+{
     position: relative;
     margin-top: 50px;
     margin-bottom: 35px;
@@ -80,7 +102,9 @@
     font-family: "Open Sans";
     font-weight: bold;
 }
-.text_min {
+
+.text_min
+{
     padding-top: 50px;
     width: 570px;
     margin-top: 0;
@@ -90,7 +114,9 @@
     color: rgb(85, 85, 85);
     font-family: "Georgia";
 }
-.text_max {
+
+.text_max 
+{
     width: 562px;
     height: 263px;
     margin-top: 30px;
@@ -100,12 +126,16 @@
     color: rgb(85, 85, 85);
     font-family: "Georgia";
 }
-.div_text {
+
+.div_text
+{
     position: relative;
     box-sizing: border-box;
     width: 570px;
 }
-.quote {
+
+.quote
+{
     position: relative;
     width: 512px;
     margin: 0;
@@ -117,13 +147,17 @@
     font-style: italic;
     padding-top: 70px;
 }
-.underline {
+
+.underline
+{
     width: 60px;
     height: 6px;
     border-radius: 3px;
     background-color: #45c3a9;
 }
-.title_text_two {
+
+.title_text_two 
+{
     position: relative;
     margin-top: 50px;
     margin-bottom: 0;
@@ -133,33 +167,48 @@
     font-family: "Open Sans";
     font-weight: 400;
 }
-a {
+
+a
+{
     font-size: 19px;
     line-height: 32px;
     color: rgb(21, 169, 139);
     font-family: "Georgia";
     text-decoration: none;
 }
-a:hover {
+
+a:hover
+{
     font-size: 19px;
     line-height: 32px;
     font-family: "Georgia";
     color: rgb(9, 141, 114);
 }
-.text {
+
+.text
+{
     padding: 0 0 0 20px;
     font-size: 19px;
     line-height: 36px;
     color: rgb(85, 85, 85);
     font-family: "Georgia";
 }
-.image {
+
+.image
+{
     width: 130px;
     height: 88px;
     position: relative;
     margin: 0;
     padding-top: 50px;
 }
-.link {
+
+.link
+{
     text-decoration: underline;
+}
+
+.clear
+{
+    clear: both;
 }
