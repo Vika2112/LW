@@ -1,0 +1,605 @@
+.main_content 
+{
+    position: relative;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.blocks_and_foto 
+{
+    position: relative;
+    float: left;
+    padding: 210px 60px 0 0;
+}
+
+.lists
+{
+    width: 330px;
+    position: relative;
+}
+
+.list_one
+{
+    position: relative;
+    margin-top: 50px;
+}
+
+.list_two 
+{
+    position: relative;
+    margin-top: 58px;
+}
+
+.all_text
+{
+    position: relative;
+    width: 570px;
+    height: auto;
+    float: right;
+    padding-top: 155px;
+    padding-right: 40px;
+}
+
+.basic_information
+{
+    margin-top: 50px;
+    position: relative;
+    box-sizing: border-box;
+    width: 570;
+}
+
+.blockquote 
+{
+    position: relative;
+    width: 570px;
+    padding-bottom: 25px;
+}
+
+.author 
+{
+    position: relative;
+    float: column;
+    margin: 0;
+    padding-left: 3px;
+    font-size: 16px;
+    line-height: 42px;
+    color: rgb(245, 245, 245);
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.photo
+{
+    position: relative;
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.title_lists 
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(21, 169, 140);
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.title_text_one
+{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    font-size: 48px;
+    line-height: 42px;
+    color: rgb(51, 51, 51);
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.text_min
+{
+    padding-top: 50px;
+    width: 570px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85, 85, 85);
+    font-family: "Georgia";
+}
+
+.text_max 
+{
+    width: 562px;
+    height: 263px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85, 85, 85);
+    font-family: "Georgia";
+}
+
+.div_text
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 570px;
+}
+
+.quote
+{
+    position: relative;
+    
+    width: 550px;
+    margin: 0;
+ 
+    font-size: 28px;
+    line-height: 42px;
+    color: rgb(255,255,255);
+    font-family: "Georgia";
+    font-style: italic;
+    padding-top: 50px;
+}
+
+.underline
+{
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3a9;
+}
+
+.title_text_two 
+{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51, 51, 51);
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+a
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(21, 169, 139);
+    font-family: "Georgia";
+    text-decoration: none;
+}
+
+a:hover
+{
+    font-size: 19px;
+    line-height: 32px;
+    font-family: "Georgia";
+    color: rgb(9, 141, 114);
+}
+
+.text
+{
+    padding: 0 0 0 20px;
+    font-size: 19px;
+    line-height: 36px;
+    color: rgb(85, 85, 85);
+    font-family: "Georgia";
+}
+
+.image
+{
+    width: 130px;
+    height: 88px;
+    position: relative;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.link
+{
+    text-decoration: underline;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.top_menu 
+{
+    width: 1000px;
+    margin: 0 auto; 
+}
+
+.top 
+{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+}
+
+.films_information 
+{
+    width: 1200px;
+    margin: 50px auto 50px auto; 
+    padding-top: 30px;
+}
+
+.title_favorite_films 
+{
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";    
+}
+
+.film 
+{
+    float:left;
+    width: 280px;
+    margin-right: 25px;
+}
+
+.film_photo 
+{
+    width: 285px;
+    height: 190px;
+    border-radius: 5px;
+}
+
+.film_title 
+{
+    padding: 20px 0 17px 0;
+    
+    font-size: 22px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.film_description 
+{
+    width: 285px;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+}
+
+.div_university 
+{
+    background-color: #f5f5f5;
+    text-align: center;
+    
+    padding: 23px 0;
+}
+
+.university
+{
+    font-size: 16px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Georgia"; 
+}
+
+.button_films
+{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #15a98b;
+    margin-top: 60px;
+    margin-left: 480px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(245, 245, 245);
+    font-family: "Georgia";
+}
+
+button.button_films:hover
+{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #098d71;
+}
+
+
+.film_last 
+{
+    float:left;
+    margin-right: 0;
+}
+
+.one 
+{
+    float:left;
+    background-image: url(about_me_icon.png);
+    background-repeat: no-repeat;
+    background-position: 20px 17px;
+    padding: 10px 22px 8px 45px;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Georgia";
+}
+
+a.one:hover
+{
+    background-image: url(about_me_icon_white.png);
+    background-repeat: no-repeat;
+    background-position: 20px 17px;
+    color: rgb(245, 245, 245);
+    background-color: #15a98c;
+}
+
+.two 
+{
+    float:left;
+    background-image: url(hobby_icon.png);
+    background-repeat: no-repeat;
+    background-position: 20px 17px;
+    padding: 10px 22px 8px 45px;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Georgia";
+}
+
+a.two:hover
+{
+    background-image: url(hobby_icon_white.png);
+    background-repeat: no-repeat;
+    background-position: 20px 17px;
+    color: rgb(245, 245, 245);
+    background-color: #15a98c;
+}
+
+.three 
+{
+    float:left;
+    background-image: url(video_icon.png);
+    background-repeat: no-repeat;
+    background-position: 20px 17px;
+    padding: 10px 22px 8px 45px;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Georgia";
+}
+
+a.three:hover
+{
+    background-image: url(video_icon_white.png);
+    background-repeat: no-repeat;
+    background-position: 20px 17px;
+    color: rgb(245, 245, 245);
+    background-color: #15a98c;
+}
+
+
+.table_header 
+{   
+    margin-left: 370px;
+    margin-bottom: 75px;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+}
+
+.table 
+{
+    width: 1000px;
+    margin: 0 auto; 
+}
+
+.blank_title 
+{
+    margin-left: 230px;
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+}
+
+input[type="text"]
+{
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-left: 230px;
+    width: 540px;
+    height: 50px;
+    border: 2px solid #c9c9c9; 
+    border-radius: 5px;
+    outline: none; 
+}
+
+input[type="text"]:hover
+{
+    border-color: #a6a6a6;
+}
+
+input[type="text"]:focus 
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Open Sans";
+    border: 2px solid #15a98c;
+}
+
+.snowflake 
+{
+    font-size: 25px;
+    line-height: 32px;
+    color: #ee0707;
+    font-family: "Open Sans";
+}
+
+.countries_list select 
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-top: 5px;
+    margin-left: 230px;
+    padding-left: 15px;
+    width: 560px;
+    height: 50px;
+    border: 2px solid #c9c9c9; 
+    border-radius: 5px;
+    outline: none;
+    
+    font-size: 20px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    
+    background: url(arrow_down.png);
+    background-repeat: no-repeat;
+    background-position: 520px;
+    overflow: hidden;
+    outline: none;
+}
+    
+.countries_list
+{
+    margin-top: 5px;
+}
+
+.countries_list select:hover
+{
+    cursor: pointer;
+    border-color: #a6a6a6;
+}
+
+.countries_list select:focus
+{
+    outline: 0;
+    border-color: #15a98c; 
+}
+
+option
+{
+    color: #898989;
+    border-radius: 5px;
+}
+
+.gender_title 
+{
+    margin-top: 10px;
+    margin-left: 230px;
+}
+
+.male 
+{
+    float: left;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    cursor: pointer;
+}
+
+.feminine 
+{
+    float: left;
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    cursor: pointer;
+}
+
+.sms_blank_title
+{
+    margin-left: 230px;
+    padding-top: 70px;
+    font-size: 25px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+}
+
+.input_form 
+{
+    resize: none;
+    width: 545px;
+    height: 145px;
+    border: 2px solid #c9c9c9;
+    border-radius: 5px;
+    margin-left: 230px;
+    margin-top: 5px;
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+}
+
+.input_form:hover
+{
+    border-color: #a6a6a6;
+}
+
+.input_form:focus
+{
+    border-color: #15a98c;
+}
+
+.send_button 
+{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #15a98b;
+    margin-top: 50px;
+    margin-left: 230px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(245, 245, 245);
+    font-family: "Georgia";
+}
+
+button.send_button:hover
+{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #098d71;
+}
+
+.films_background 
+{
+    background-color: #f9f9f9; 
+}
+
+.line_left 
+{
+    float: left;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+.line_right 
+{
+    float: right;
+    margin-right: 140px;
+    margin-top: 20px;
+}
