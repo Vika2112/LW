@@ -2,6 +2,8 @@
 <html>
 
 <head lang="ru">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,0" />
     <link rel="shortcut icon" href="smile.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
@@ -72,9 +74,12 @@
                         <p class="text_max">
                             Я выбрала Поволжский Государственный Технологический Университет, потому что знаю, что здесь я получу достойное образование. Потому что здесь для меня есть много возможностей для самореализации и саморазвития. Для меня ФИиВТ является одним из интереснейших и перспективных факультетов.
                         </p>
-                        <a href="https://vk.com/viktoriyagrigoryeva">
-                            <span class="link">Напиши мне</span><span> &rarr;</span> 
-                        </a>
+                        <p class="write_me">
+                            <a class="poplight" rel="popup_contact" href="#" id="pop_light">
+                                <span class="link">Напиши мне</span><span> &rarr;</span> 
+                            </a>
+                        </p>
+
                     </div>
                 </div>
             </div>
@@ -122,73 +127,139 @@
                         </div>
 
                     </div>
+
                     <div class="clear"></div>
+
+                    <div id="box_movies" class="box_movies">
+                        <div class="film">
+                            <div class="film_photo">
+                                <img src="images/Narnia.jpg" alt="Хроники Нарнии" class="film_photo">
+                            </div>
+                            <div class="film_title">Хроники Нарнии</div>
+                            <div class="film_description">
+                                «Хроники Нарнии: Лев, колдунья и волшебный шкаф» — экранизация произведения «Лев, колдунья и платяной шкаф» Клайва Льюиса из серии «Хроники Нарнии». В фильме рассказывается о параллельном мире, входом в который является платяной шкаф.
+                            </div>
+                        </div>
+
+                        <div class="film">
+                            <div class="film_photo">
+                                <img src="images/gogol.jpg" alt="Гоголь" class="film_photo">
+                            </div>
+                            <div class="film_title">Гоголь</div>
+                            <div class="film_description">
+                                Казаки, ведьмы, русалки, утопленницы и другие обитатели Диканьки встречаются лицом к лицу со своим создателем Николаем Гоголем, молодым писарем из Петербурга, который страдает загадочными припадками и может общаться с персонажами из потустороннего мира.
+                            </div>
+                        </div>
+
+
+                        <div class="film">
+                            <div class="film_photo">
+                                <img src="images/yolki.jpg" alt="Ёлки" class="film_photo">
+                            </div>
+                            <div class="film_title">Ёлки</div>
+                            <div class="film_description">
+                                «Ёлки» — киноальманах продюсера Тимура Бекмамбетова, вышедший в прокат 16 декабря 2010 года. Фильм состоит из снятых шестью режиссёрами 8 новелл, связанных между собой и происходящих 31 декабря в 11 российских городах.
+                            </div>
+                        </div>
+
+                        <div class="film_last">
+                            <div class="film_photo">
+                                <img src="images/Sevastopol.jpg" alt="Битва за Севастополь" class="film_photo">
+                            </div>
+                            <div class="film_title">Битва за Севастополь</div>
+                            <div class="film_description">
+                                Битва за Севастополь- украино-российский полнометражный военный драматический историко-биографический художественный фильм режиссёра Сергея Мокрицкого, снятый в 2015 году
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <button class="button_films">Все фильмы</button>
+                <div class="clear"></div>
+
+                <button class="button_films" id="button_movies">Все фильмы</button>
             </div>
+
         </div>
     </div>
 
-    <div class="table">
-        <div class="line_left"></div>  
-        <div class="line_right"></div>
-        <div class="table_header">НАПИШИ МНЕ</div>
-        
-        <form action="#" method="post">
-        <label class="blank_title">
-            <p class="form_text snowflake">Ваше имя</p>
-            <input type="text" name="user_name">
-        </label>
-            
-        <label class="blank_title">
-            <p class="form_text snowflake">Ваш email</p>
-            <input type="text" name="user_email">
-        </label>    
+    <div id="popup_contact" class="feedback popup_block">
+        <div class="table">
+            <form name="contact_form" action="#" method="post" id="feedback">
+                <div class="table_header">НАПИШИ МНЕ</div>
+                <div class="input_list">
+                    <p class="name snowflake">
+                        <label  for="username">Ваше имя</label>
+                    </p>
+                    <p>
+                        <input type="text" name="username" id="username" class="username field_name form_control" placeholder="" onfocus="this.value=''"> 
+                    </p>
+
+
+                    <p class="email_title snowflake">
+                        <label for="username">Ваш email</label>
+                    </p>
+                    <p>
+                        <input type="text" id="useremail" name="email" class="email_text field_email form_control" placeholder="" onfocus="this.value=''">
+                    </p>
 
 
 
-        
-        <div class="form_text blank_title">Откуда вы?</div>
-        <div class="countries_list">
-            <select name=”countries”>
-                <option>Украина</option>
-                <option selected>Россия</option>
-                <option>Франция</option>
-                <option>Испания</option>
-                <option>Швеция</option>
-                <option>Норвегия</option>
-                <option>Германия</option>
-                <option>Финляндия</option>
-                <option>Польша</option>
-                <option>Италия</option>
-                <option>Великобритания</option>
-                <option>Румыния</option>
-                <option>Нидерланды</option>
-            </select>
 
+                    <div class="from_user">
+                        <div class="from_title">
+                            <label for="userfrom">Откуда вы?</label>
+                        </div>
+                        <select type="text" name=”country” id="userfrom" class="from field_from">
+                            <option>Украина</option>
+                            <option selected>Россия</option>
+                            <option>Франция</option>
+                            <option>Испания</option>
+                            <option>Швеция</option>
+                            <option>Норвегия</option>
+                            <option>Германия</option>
+                            <option>Финляндия</option>
+                            <option>Польша</option>
+                            <option>Италия</option>
+                            <option>Великобритания</option>
+                            <option>Румыния</option>
+                            <option>Нидерланды</option>
+                        </select>
+                    </div>
+
+                    <p>
+                        <label class="gender" for="gender">Ваш пол</label>
+                    </p>
+                    <div class=gender_title>
+                        <label class="male">
+                            <input id="gender" name="gender" type="radio" value="male"> Мужской</label>
+                        <label class="female">
+                            <input name="gender" type="radio" value="female"> Женский</label>
+                    </div>
+
+                    <p class="sms_blank_title">
+                        <label class="message" for="message">Ваше сообщение</label>
+                    </p>
+                    <p>
+                        <textarea class="space_message" name=”your_message” id="message" rows="10"></textarea>                        
+                    </p>
+                    <p>
+                        <label for="submit" class="button_send"></label>
+                    </p>
+                    <label>
+                        <input type="submit" id="submit" value="Отправить" class="button_message">
+                    </label>
+                    <label for="popup_contact" class="close_block" id="close"></label>
+
+                </div>
+
+            </form>
         </div>
-
-        <p class="form_text blank_title">Ваш пол</p>
-        <div class=gender_title>
-            <label class="male">
-                <input name="dzen" type="radio" value="nedzen"> Мужской</label>
-            <label class="feminine">
-                <input name="dzen" type="radio" value="dzen"> Женский</label>
-        </div>
-
-        <div class="sms_blank_title"><p class="snowflake">Ваше сообщение</p>
-        </div>
-
-        <textarea class="input_form" name=”your_message”></textarea>
-
-        <button class="send_button">Отправить</button>
-        </form>
 
     </div>
 
     <div class="div_university">
         <span class="university">© 2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»</span>
     </div>
+    <script src="script5.2.js"></script>
 </body>
 
 </html>

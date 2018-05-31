@@ -226,7 +226,7 @@ a:hover
 .films_information 
 {
     width: 1200px;
-    margin: 50px auto 50px auto; 
+    margin: 50px auto 0 auto;
     padding-top: 30px;
 }
 
@@ -315,7 +315,6 @@ button.button_films:hover
     background-color: #098d71;
 }
 
-
 .film_last 
 {
     float:left;
@@ -385,36 +384,38 @@ a.three:hover
 
 .table_header 
 {   
-    margin-left: 370px;
-    margin-bottom: 75px;
     font-size: 36px;
     line-height: 42px;
-    font-weight: 300;
     color: rgb(51,51,51);
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 60px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 42px;
 }
 
 .table 
 {
-    width: 1000px;
-    margin: 0 auto; 
+    width: 700px;
+    margin: 0 auto;
 }
 
-.blank_title 
+input.field_name
 {
-}
-
-input[type="text"]
-{
-    padding-left: 15px;
-    margin-top: 5px;
-    margin-left: 230px;
     width: 540px;
     height: 50px;
     border: 2px solid #c9c9c9; 
     border-radius: 5px;
     outline: none; 
 }
+
+input.field_name.my_error
+{
+    border: 2px solid #f12424;
+}
+
+
 
 input[type="text"]:hover
 {
@@ -436,48 +437,6 @@ input[type="text"]:focus
     color: #ee0707
 }
 
-.countries_list select 
-{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    margin-top: 5px;
-    margin-left: 230px;
-    padding-left: 15px;
-    width: 560px;
-    height: 50px;
-    border: 2px solid #c9c9c9; 
-    border-radius: 5px;
-    outline: none;
-    
-    font-size: 20px;
-    line-height: 32px;
-    color: rgb(51,51,51);
-    font-family: "Open Sans";
-    
-    background: url(arrow_down.png);
-    background-repeat: no-repeat;
-    background-position: 520px;
-    overflow: hidden;
-    outline: none;
-}
-    
-.countries_list
-{
-    margin-top: 5px;
-}
-
-.countries_list select:hover
-{
-    cursor: pointer;
-    border-color: #a6a6a6;
-}
-
-.countries_list select:focus
-{
-    outline: 0;
-    border-color: #15a98c; 
-}
-
 option
 {
     color: #898989;
@@ -486,90 +445,12 @@ option
 
 .gender_title 
 {
-    margin-top: 10px;
-    margin-left: 230px;
-}
-
-.male 
-{
-    float: left;
-    font-size: 18px;
-    line-height: 32px;
-    color: rgb(51,51,51);
-    font-family: "Open Sans";
-    cursor: pointer;
-}
-
-.feminine 
-{
-    float: left;
-    margin-left: 30px;
-    font-size: 18px;
-    line-height: 32px;
-    color: rgb(51,51,51);
-    font-family: "Open Sans";
-    cursor: pointer;
+    margin-top: -4px;
 }
 
 .sms_blank_title
 {
-    margin-left: 230px;
-    padding-top: 70px;
-    font-size: 25px;
-    line-height: 32px;
-    color: rgb(51,51,51);
-    font-family: "Open Sans";
-}
-
-.input_form 
-{
-    resize: none;
-    width: 545px;
-    height: 145px;
-    border: 2px solid #c9c9c9;
-    border-radius: 5px;
-    margin-left: 230px;
-    margin-top: 8px;
-    padding: 5px 5px 5px 5px;
-    font-size: 20px;
-    line-height: 32px;
-    color: rgb(51,51,51);
-    font-family: "Open Sans";
-}
-
-.input_form:hover
-{
-    border-color: #a6a6a6;
-}
-
-.input_form:focus
-{
-    border-color: #15a98c;
-}
-
-.send_button 
-{
-    width: 220px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: #15a98b;
-    margin-top: 50px;
-    margin-left: 230px;
-    margin-bottom: 50px;
-    cursor: pointer;
-    
-    font-size: 19px;
-    line-height: 32px;
-    color: rgb(245, 245, 245);
-    font-family: "Georgia";
-}
-
-button.send_button:hover
-{
-    width: 220px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: #098d71;
+    margin-top: 27px;
 }
 
 .films_background 
@@ -577,37 +458,268 @@ button.send_button:hover
     background-color: #f9f9f9; 
 }
 
-.line_left 
+.box_movies 
 {
-    border-radius:  3px;
-    background-color: #c4c4c4;
-    float: left;
-    width: 200px;
-    height: 1px;
-    margin-left: 140px;
     margin-top: 20px;
-    
+    margin-bottom: 50px;
+    display: none;
+    opacity: 0.1;
+    overflow: hidden;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
 }
 
-.line_right 
+.male,
+.female
 {
-    float: right;
-    margin-right: 140px;
-    margin-top: 20px;
-    border-radius:  3px;
-    background-color: #c4c4c4;
-    width: 200px;
-    height: 1px;
-}
-
-.form_text 
-{
-    width: 540px;
-    margin:0 auto;
-    margin-top: 25px;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 32px;
     color: rgb(51,51,51);
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     cursor: pointer;
 }
+
+.male
+{
+    padding-left: 3px;
+    padding-top: 1px;
+}
+
+.female
+{
+    margin-left: 32px;
+    padding-left: 8px;
+}
+
+.field_name,
+.field_email,
+.field_from
+{
+    width: 540px;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid #c9c9c9;
+    box-sizing: border-box;
+}
+
+.my_error
+{
+    border: 2px solid #f12424;
+}
+
+.username,
+.email_text,
+.from,
+.space_message
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Open Sans";
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+.space_message:hover
+{
+    border-color: #a6a6a6;
+}
+
+.space_message:focus
+{
+    outline: 0;
+    border-color: #15a98c;     
+}
+
+.field_email
+{
+    margin-bottom: 13px;
+}
+
+.field_from
+{
+    width: 540px;
+    height: 50px;
+    margin-bottom: 31px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+.field_from:hover
+{
+    border-radius: 3px;
+    border: 2px solid #a6a6a6;
+}
+
+.field_from:focus
+{
+    border-color: #15a98c;
+}
+ 
+.field_name:hover
+{
+    border-radius: 3px;
+    border: 2px solid #a6a6a6;
+}
+
+.field_email:hover
+{
+    border-radius: 3px;
+    border: 2px solid #a6a6a6;
+}
+
+.field_name:focus
+{
+    border-color: #15a98c;
+}
+
+.field_email:focus
+{
+    border-color: #15a98c;
+}
+
+select 
+{
+    padding-right: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(arrow_down.png) no-repeat 96.67% center;
+}
+
+.name,
+.email_title,
+.from_title,
+.gender,
+.message 
+{
+    font-size: 20px;
+    line-height: 50px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    margin-top: 2px;
+    margin-bottom: -5px;
+    margin-left: -2px;
+}
+
+.button_message 
+{
+    border-radius: 5px;
+    background-color: #15a98c;
+    width: 220px;
+    height: 50px;
+    border: 0;
+    font-size: 19px;
+    font-family: 'Georgia', sans-serif;
+    color: rgb(245,245,245);
+    line-height: 50px;
+    margin-bottom: 49px;
+    margin-top: 46px;
+}
+
+.button_message:hover
+{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #098d71;
+    cursor: pointer;
+}
+
+.write_me 
+{
+    font-size: 19px;
+    line-height: 32px;
+    font-family: 'Georgia', sans-serif;
+    margin-top: 41px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.feedback 
+{
+    display: none;
+}
+  
+.popup_block 
+{
+    /*--Модальное окно--*/
+    width: 660px;
+    height: 903px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 358px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    z-index: 2;
+    display: none; 
+}
+
+.input_list 
+{
+    margin-left: 61px;
+}
+
+textarea
+{
+    width: 521px;
+    height: 130px;
+    border-radius: 3px;
+    border: 2px solid #c9c9c9;
+    resize: none;
+    margin-top: -6px;
+    padding-top: 16px;
+}
+
+
+.close_block 
+{
+    display: block;
+    position: absolute;
+    top: 32px;
+    right: 30px;
+    left: 605px;
+    width: 24px;
+    height: 24px;
+    background: url(close.jpg) no-repeat;
+    cursor: pointer;
+}
+
+.shadow 
+{ 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* поверх всех  кроме окна*/
+    background: #000;
+    opacity: 0.75; /*прозрачность*/
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
